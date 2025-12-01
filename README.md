@@ -7,7 +7,6 @@ A color mixing puzzle prototype to be used for [Nuevo Foundation](https://www.nu
 👉 Try it out [here](https://joaqor.trinket.io/sites/chroma-chemist-chameleon) (on Trinket).
 
 ## Editing the puzzle on Trinket
-
 Use [this link](https://trinket.io/html/bfa54d462bc7) to access and modify the code on Trinket.
 
 ## Running and modifying the puzzle locally
@@ -25,4 +24,4 @@ Steps to open in Visual Studio Code:
 * On the file navigator on the left, click on index.html to see the file in the editor. Then click on the "Show Preview" button on the top right of the editor to show the live preview.
 
 ## 3rd Party Libraries
-This code uses Phaser (https://phaser.io/) and Gauge.js (https://bernii.github.io/gauge.js/)
+This code uses the [Phaser game engine](https://phaser.io/) for physics, [Mixbox](https://github.com/scrtwpns/mixbox) for accurate pigment-like color mixing, and [Gauge.js](https://bernii.github.io/gauge.js/) for the gauge widget in the Debug Data section.
