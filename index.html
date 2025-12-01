@@ -1,0 +1,35 @@
+<!-- For instructions on how to develop the game locally, see README.md -->
+
+<!-- This file was started based on basic template for a Phaser game --><!DOCTYPE html>
+<html>
+<head>
+    <title>Color Mixing Puzzle</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@v3.86.0/dist/phaser.min.js"></script>
+    <script src="mixbox.js"></script>
+    <script src="gauge.min.js"></script>
+    <script src="game.js"></script>
+    <style>
+        #outer-container {
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer-container">
+        <div id="game-container" style="pointer-events: none"></div>
+        <div style="width: 500px; text-align: center; margin-top: 10px;">
+            <button id="cyan-btn" style="background-color: #00b7eb;">+ Cyan</button>
+            <button id="magenta-btn" style="background-color: #ff0090;">+ Magenta</button>
+            <button id="yellow-btn" style="background-color: #ffef00;">+ Yellow</button>
+            <button id="black-btn" style="background-color: #444444; color: white;">+ Black</button>
+            <button id="white-btn" style="background-color: #ffffff; color: black; border: 1px solid #ccc;">+ White</button>
+        </div>
+        <hr/>
+        <div>
+            <h3>Debug data:</h3>
+            <div>Color match: <span id="percentage-match">0</span>%</div>
+            <canvas id="foo"></canvas>
+        </div>
+    </div>
+</body>
+</html>
