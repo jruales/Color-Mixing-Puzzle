@@ -24,4 +24,4 @@ Steps to open in Visual Studio Code:
 * On the file navigator on the left, click on index.html to see the file in the editor. Then click on the "Show Preview" button on the top right of the editor to show the live preview.
 
 ## 3rd Party Libraries
-This code uses the [Phaser game engine](https://phaser.io/) for physics, [Mixbox](https://github.com/scrtwpns/mixbox) for accurate pigment-like color mixing, and [Gauge.js](https://bernii.github.io/gauge.js/) for the gauge widget in the Debug Data section.
+This code uses [Phaser v3.86.0](https://phaser.io/) for physics, [Mixbox v2.0](https://github.com/scrtwpns/mixbox) for accurate pigment-like color mixing, and [Gauge.js v1.3.9](https://bernii.github.io/gauge.js/) for the gauge widget in the Debug Data section.
